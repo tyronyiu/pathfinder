@@ -1,6 +1,8 @@
 import {
   BookOpen,
+  Building2,
   CalendarDays,
+  Contact,
   Facebook,
   Instagram,
   Linkedin,
@@ -8,6 +10,7 @@ import {
   MapPin,
   Phone,
   ShoppingCart,
+  Smartphone,
 } from "lucide-react"
 
 export type SiteConfig = typeof siteConfig
@@ -84,6 +87,96 @@ export const siteConfig = {
       title: "Facebook",
       link: "https://m.facebook.com/APS.HH/",
       icon: Facebook,
+    },
+    {
+      id: 10,
+      title: "Save contact",
+      link: "https://cdn.apssupply.com/vcf/ham",
+      icon: Contact,
+    },
+  ],
+  employees: [
+    {
+      id: "astolz",
+      name: "Adrian Stolz",
+      image: {
+        link: "https://cdn.apssupply.com/misc/hh-logo.png",
+        altText: "APS",
+      },
+      impressum: "https://www.apssupply.com/Informationen/Impressum/",
+      buttons: [
+        {
+          id: 3,
+          title: "E-Mail",
+          link: "mailto:stolz@apssupply.com",
+          icon: Mail,
+        },
+        {
+          id: 4,
+          title: "Mobile",
+          link: "tel:+49 151 54916208",
+          icon: Smartphone,
+        },
+        {
+          id: 5,
+          title: "Telephone",
+          link: "tel:+49 40 48003127",
+          icon: Phone,
+        },
+        {
+          id: 8,
+          title: "APS Pathfinder",
+          link: "https://pathfinder.apssupply.com/",
+          icon: Building2,
+        },
+        {
+          id: 10,
+          title: "Save contact",
+          link: "https://cdn.apssupply.com/vcf/astolz",
+          icon: Contact,
+        },
+      ],
+    },
+    {
+      id: "tbark",
+      name: "Timon Bark",
+      image: {
+        link: "https://cdn.apssupply.com/misc/hh-logo.png",
+        altText: "APS",
+      },
+      impressum: "https://www.apssupply.com/Informationen/Impressum/",
+      buttons: [
+        {
+          id: 3,
+          title: "E-Mail",
+          link: "mailto:bark@apssupply.com",
+          icon: Mail,
+        },
+        {
+          id: 4,
+          title: "Mobile",
+          link: "tel:+49 175 4080 008",
+          icon: Smartphone,
+        },
+        {
+          id: 5,
+          title: "Telephone",
+          link: "tel:+49 40 48 00 31 59",
+          icon: Phone,
+        },
+        {
+          id: 8,
+          title: "APS Pathfinder",
+          link: "https://pathfinder.apssupply.com/",
+          icon: Building2,
+        },
+        {
+          id: 10,
+          title: "Save contact",
+          link: "https://cdn.apssupply.com/vcf/tbark",
+          icon: Contact,
+        },
+      ],
     },
   ],
 }

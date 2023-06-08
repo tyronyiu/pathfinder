@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Adrian Stolz
+N;CHARSET=UTF-8:Stolz;Adrian;;;
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:stolz@apssupply.com
+TEL;TYPE=CELL:+49 151 5491 6208
+TEL;TYPE=WORK,VOICE:+49 40 48 00 31 27
+ADR;CHARSET=UTF-8;TYPE=WORK:;;Obenhauptstrasse 1;Hamburg;Hamburg;22335;Germany
+ORG;CHARSET=UTF-8:APS Glass & Bar Supply GmbH
+URL;type=Website;CHARSET=UTF-8:https://apssupply.com
+URL;type=Pathfinder;CHARSET=UTF-8:https://pathfinder.apssupply.com
+NOTE;CHARSET=UTF-8:Contact added by "APS pathfinder".
+END:VCARD
