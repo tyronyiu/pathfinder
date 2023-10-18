@@ -178,5 +178,47 @@ export const siteConfig = {
         },
       ],
     },
+
+    {
+      id: "jsammann",
+      name: "Jan C. Sammann",
+      image: {
+        link: "https://cdn.apssupply.com/misc/hh-logo.png",
+        altText: "APS",
+      },
+      impressum: "https://www.apssupply.com/Informationen/Impressum/",
+      buttons: [
+        {
+          id: 3,
+          title: "E-Mail",
+          link: "mailto:sammann@apssupply.com",
+          icon: Mail,
+        },
+        {
+          id: 4,
+          title: "Mobile",
+          link: "tel:+49 151 54916208",
+          icon: Smartphone,
+        },
+        {
+          id: 5,
+          title: "Telephone",
+          link: "tel:+49 40 48003132",
+          icon: Phone,
+        },
+        {
+          id: 8,
+          title: "APS Pathfinder",
+          link: "https://pathfinder.apssupply.com/",
+          icon: Building2,
+        },
+        {
+          id: 10,
+          title: "Save contact",
+          link: "https://cdn.apssupply.com/vcf/astolz",
+          icon: Contact,
+        },
+      ],
+    },
   ],
 }
