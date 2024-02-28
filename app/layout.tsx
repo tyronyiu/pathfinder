@@ -1,6 +1,7 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
 
+import Script from 'next/script'
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
@@ -32,6 +33,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-2W8K183M78"></Script>
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-2W8K183M78');
+          `}
+        </Script>
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",

@@ -155,7 +155,7 @@ export const siteConfig = {
         {
           id: 4,
           title: "Mobile",
-          link: "tel:+49 175 4080 008",
+          link: "tel:+49 160 9470 5983",
           icon: Smartphone,
         },
         {
@@ -203,7 +203,7 @@ export const siteConfig = {
         {
           id: 5,
           title: "Telephone",
-          link: "tel:+49 40 48003132",
+          link: "tel:+49 40 480031 32",
           icon: Phone,
         },
         {
@@ -215,10 +215,130 @@ export const siteConfig = {
         {
           id: 10,
           title: "Save contact",
-          link: "https://cdn.apssupply.com/vcf/astolz",
+          link: "https://cdn.apssupply.com/vcf/jsammann",
           icon: Contact,
         },
       ],
     },
+    {
+      id: "syiu",
+      name: "Shung Yiu",
+      image: {
+        link: "https://cdn.apssupply.com/misc/hh-logo.png",
+        altText: "APS",
+      },
+      impressum: "https://www.apssupply.com/Informationen/Impressum/",
+      buttons: [
+        {
+          id: 3,
+          title: "E-Mail",
+          link: "mailto:yiu@apssupply.com",
+          icon: Mail,
+        },
+        {
+          id: 4,
+          title: "Mobile",
+          link: "tel:+49 171 2620678",
+          icon: Smartphone,
+        },
+        {
+          id: 5,
+          title: "Telephone",
+          link: "tel:+49 40 480031 88",
+          icon: Phone,
+        },
+        {
+          id: 8,
+          title: "APS Pathfinder",
+          link: "https://pathfinder.apssupply.com/",
+          icon: Building2,
+        },
+        {
+          id: 10,
+          title: "Save contact",
+          link: "https://cdn.apssupply.com/vcf/syiu",
+          icon: Contact,
+        },
+      ],
+    },
+    {
+      id: "tyiu",
+      name: "Ty Yiu",
+      image: {
+        link: "https://cdn.apssupply.com/misc/hh-logo.png",
+        altText: "APS",
+      },
+      impressum: "https://www.apssupply.com/Informationen/Impressum/",
+      buttons: [
+        {
+          id: 3,
+          title: "E-Mail",
+          link: "mailto:tyiu@apssupply.com",
+          icon: Mail,
+        },
+        {
+          id: 4,
+          title: "Mobile",
+          link: "tel:+49 171 2230998",
+          icon: Smartphone,
+        },
+        {
+          id: 5,
+          title: "Telephone",
+          link: "tel:+49 40 480031 16",
+          icon: Phone,
+        },
+        {
+          id: 8,
+          title: "APS Pathfinder",
+          link: "https://pathfinder.apssupply.com/",
+          icon: Building2,
+        },
+        {
+          id: 10,
+          title: "Save contact",
+          link: "https://cdn.apssupply.com/vcf/tyiu",
+          icon: Contact,
+        },
+      ],
+    },
+
+    {
+      id: "aalvarez",
+      name: "Amilcar Álvarez",
+      image: {
+        link: "https://cdn.apssupply.com/misc/hh-logo.png",
+        altText: "APS",
+      },
+      impressum: "https://www.apssupply.com/Informationen/Impressum/",
+      buttons: [
+        {
+          id: 3,
+          title: "E-Mail",
+          link: "mailto:alvarez@apssupply.com",
+          icon: Mail,
+        },
+        {
+          id: 4,
+          title: "Mobile",
+          link: "tel:+34 673 74 68 86",
+          icon: Smartphone,
+        },
+        {
+          id: 8,
+          title: "APS Pathfinder",
+          link: "https://pathfinder.apssupply.com/",
+          icon: Building2,
+        },
+        {
+          id: 10,
+          title: "Save contact",
+          link: "https://cdn.apssupply.com/vcf/aalvarez",
+          icon: Contact,
+        },
+      ],
+    },
+
+
   ],
 }
